@@ -1,11 +1,11 @@
 package service;
 
 public class Monitor {
-    String chicun;
-    public Monitor(String chicun) {
+    double chicun;
+    public Monitor(double chicun) {
         this.chicun = chicun;
     }
     public void show() {
-
+        System.out.println("ddd");
     }
 }
